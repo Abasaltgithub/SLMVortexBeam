@@ -1,5 +1,5 @@
 # SLM_vortex_beam
-This Python code was created by Abasalt Bahrami on February 28, 2023. The code generates an intensity profile of a Gaussian beam, phase mask, and vortex beam in Cartesian and polar coordinates.
+The code generates an intensity profile of a Gaussian beam, phase mask, and vortex beam in Cartesian and polar coordinates.
 The diffractio library is used to calculate the electric field of the Gaussian beam. numpy, matplotlib, and cv2 libraries are used for the numerical calculations, visualization, and image processing.
 The code defines a function gaussian_beam to calculate the electric field of a Gaussian beam given its radial distance, propagation distance, beam waist size, wavenumber, and curvature radius. Then it sets the parameters for the Gaussian beam, such as beam waist size, wavelength, wavenumber, and grid size.
 The code then plots the Gaussian beam intensity profile in polar and Cartesian coordinates. Next, it calculates the radial distance and azimuthal angle and applies the phase mask for the vortex beam. Finally, it displays the intensity profile of the vortex beam with a color bar.
