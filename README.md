@@ -1,4 +1,4 @@
-# SLM_vortex_beam
+# SLMVortexBeam
 The code generates an intensity profile of a Gaussian beam, phase mask, and vortex beam in Cartesian and polar coordinates.
 The diffractio library is used to calculate the electric field of the Gaussian beam. numpy, matplotlib, and cv2 libraries are used for the numerical calculations, visualization, and image processing.
 The code defines a function gaussian_beam to calculate the electric field of a Gaussian beam given its radial distance, propagation distance, beam waist size, wavenumber, and curvature radius. Then it sets the parameters for the Gaussian beam, such as beam waist size, wavelength, wavenumber, and grid size.
