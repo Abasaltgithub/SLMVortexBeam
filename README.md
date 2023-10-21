@@ -8,7 +8,6 @@ This repository contains code for generating and visualizing intensity profiles 
 - [Dependencies](#dependencies)
 - [Usage](#usage)
 - [Results](#results)
-- [License](#license)
 
 ## Introduction
 
@@ -43,19 +42,19 @@ To use the code, follow these steps:
 1. Clone this repository to your local machine:
 
    ```bash
-   git clone https://github.com/yourusername/your-repository.git
+   git clone https://github.com/Abasaltgithub/SLMVortexBeam.git
    ```
 
 2. Navigate to the repository directory:
 
    ```bash
-   cd your-repository
+   cd Abasaltgithub/SLMVortexBeam
    ```
 
 3. Run the Python script to generate and visualize vortex beams:
 
    ```bash
-   python vortex_beam.py
+   python slm.py
    ```
 
 4. Customize the parameters in the code as needed to experiment with different beam characteristics and phase masks.
@@ -65,10 +64,6 @@ To use the code, follow these steps:
 The code generates intensity profiles of vortex beams and visualizes them. Some example results are provided in the repository for your reference.
 
 Please feel free to explore the code and adapt it to your specific needs.
-
-## License
-
-This code is provided under the [MIT License](LICENSE), granting you the freedom to use, modify, and distribute it according to the terms specified in the license file.
 
 ![Unknown-6](https://user-images.githubusercontent.com/83898640/222328706-8cf5fdc2-dbe4-485f-87df-acb079232f14.png)
 ![Unknown-7](https://user-images.githubusercontent.com/83898640/222328726-c1e611cd-e2cc-4982-aff7-61e89b931be6.png)
